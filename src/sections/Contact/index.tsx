@@ -6,7 +6,6 @@ import {
 } from "../../hooks/useIsOnScreenOnce";
 import { ContactContainer } from "./styles";
 export function Contact() {
-  const form = useRef<HTMLFormElement>(null);
   const ref = useRef<HTMLDivElement | null>(null);
   const onScreen = useIsOnScreenOnce(ref, 0.5);
 
