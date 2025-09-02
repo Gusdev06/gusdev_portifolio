@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { ProjectCard, ProjectCardProps } from "../../components/ProjectCard";
 import {
   staggeredAnimation,
-  useIsOnScreenOnce,
+
 } from "../../hooks/useIsOnScreenOnce";
 import { ProjectsContainer } from "./styles";
 
@@ -100,7 +100,6 @@ const projectsContent: ProjectCardProps[] = [
 
 export function Projects() {
   const ref = useRef<HTMLDivElement | null>(null);
-  const onScreen = useIsOnScreenOnce(ref, 0.5);
   return (
     <ProjectsContainer
       id="projetos"
