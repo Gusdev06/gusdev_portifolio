@@ -20,7 +20,7 @@ const projectsContent: ProjectCardProps[] = [
     ],
     deployUrl: "https://picchat.com.br/",
     repoUrl: "picchat-landing",
-    imgUrl: "picchat.png",
+    imgUrl: "/picchat.png",
   },
   {
     title: "Donak Beauty",
@@ -35,7 +35,7 @@ const projectsContent: ProjectCardProps[] = [
     ],
     deployUrl: "https://donak-beauty.vercel.app/",
     repoUrl: "donak-beauty",
-    imgUrl: "donak.png",
+    imgUrl: "/donak.png",
   },
   {
     title: "Rodillas Sin Dolores",
@@ -49,7 +49,7 @@ const projectsContent: ProjectCardProps[] = [
     ],
     deployUrl: "https://www.rodillassindolores.com/",
     repoUrl: "rodillas-sin-dolores",
-    imgUrl: "rodilia.png",
+    imgUrl: "/rodilia.png",
   },
   {
     title: "Eshows",
@@ -64,7 +64,7 @@ const projectsContent: ProjectCardProps[] = [
     ],
     deployUrl: "https://www.eshows.com.br/",
     repoUrl: "eshows-landing",
-    imgUrl: "eshows.png",
+    imgUrl: "/eshows.png",
   },
   {
     title: "Espaces",
@@ -79,7 +79,7 @@ const projectsContent: ProjectCardProps[] = [
     ],
     deployUrl: "https://www.espaces.com.br/",
     repoUrl: "espaces-platform",
-    imgUrl: "espaces.png",
+    imgUrl: "/espaces.png",
   },
   {
     title: "Espaces Blog",
@@ -94,7 +94,7 @@ const projectsContent: ProjectCardProps[] = [
     ],
     deployUrl: "https://blog.espaces.com.br/",
     repoUrl: "espaces-blog",
-    imgUrl: "espaces_blog.png",
+    imgUrl: "/espaces_blog.png",
   },
 ];
 
