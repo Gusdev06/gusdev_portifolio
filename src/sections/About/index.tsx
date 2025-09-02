@@ -36,7 +36,7 @@ export function About() {
   console.log(onScreen);
   return (
     <AboutContainer
-      id="sobre"
+      id="about"
       variants={staggeredAnimation}
       ref={ref}
       initial="hidden"

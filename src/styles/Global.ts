@@ -12,8 +12,11 @@ ${variables}
 html {
 	scroll-behavior: smooth;
 	@media (max-width: 768px) {
-  font-size: 87.5%;
-}
+		font-size: 87.5%;
+	}
+	@media (max-width: 480px) {
+		font-size: 81.25%;
+	}
 }
 
 body {
@@ -49,8 +52,20 @@ input {
 	display: grid;
 	grid-template-rows: auto;
 	padding: 4rem 4rem 0;
+	
+	@media (max-width: 1024px) {
+		max-width: 90%;
+		padding: 3rem 3rem 0;
+	}
+	
 	@media (max-width: 768px) {
+		max-width: 95%;
 		padding: 2rem 2rem 0;
-}
+	}
+	
+	@media (max-width: 480px) {
+		max-width: 100%;
+		padding: 1.5rem 1.5rem 0;
+	}
 }
 	`

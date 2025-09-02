@@ -11,12 +11,12 @@ interface SideBarProps {
 const sidebarVariants = {
   open: {
     height: '100vh',
-    width: '50%',
+    width: '70%',
     transition: { duration: 0.5, ease: 'easeInOut' },
   },
   closed: {
-    height: '4rem',
-    width: '4rem',
+    height: '3.5rem',
+    width: '3.5rem',
     transition: { duration: 0.5, ease: 'easeInOut' },
   },
 }

@@ -30,6 +30,12 @@ const variables = css`
     --ff-title: "Space Grotesk", sans-serif;
 
     --transition: 400ms cubic-bezier(0.16, 1, 0.3, 1);
+
+    /* Breakpoints */
+    --mobile: 480px;
+    --tablet: 768px;
+    --desktop: 1024px;
+    --large: 1200px;
   }
 `;
 export { variables };

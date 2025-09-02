@@ -102,7 +102,7 @@ export function Projects() {
   const ref = useRef<HTMLDivElement | null>(null);
   return (
     <ProjectsContainer
-      id="projetos"
+      id="projects"
       variants={staggeredAnimation}
       ref={ref}
       initial="visible"

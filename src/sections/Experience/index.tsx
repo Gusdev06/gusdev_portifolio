@@ -61,7 +61,7 @@ export function Experience() {
   const activeTabContent = TABS.find((tab) => tab.value === activeTab);
   return (
     <ExperienceContainer
-      id="experiencia"
+      id="experience"
       variants={staggeredAnimation}
       ref={ref}
       initial="hidden"

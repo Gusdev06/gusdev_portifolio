@@ -15,20 +15,35 @@ export const NavBarContainer = styled(motion.div)<MotionProps>`
   z-index: 3;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 0 4rem;
+  
   > ul {
     display: flex;
     list-style: none;
-    gap: 1rem;
-    > li {
+    gap: 2rem;
+    align-items: center;
+  }
+
+  @media (max-width: 1024px) {
+    padding: 0 3rem;
+    
+    > ul {
+      gap: 1.5rem;
     }
   }
 
-  align-items: center;
-  padding: 0 2rem;
   @media (max-width: 768px) {
+    padding: 0 2rem;
+    
     > ul {
       display: none;
     }
+  }
+  
+  @media (max-width: 480px) {
+    padding: 0 1.5rem;
+    height: 3.5rem;
   }
 `
 export const NavItem = styled.li<NavItemProps>`
@@ -38,12 +53,22 @@ export const NavItem = styled.li<NavItemProps>`
     font-size: 1.2rem;
     transition: var(--transition);
     white-space: nowrap;
+    
     &:hover {
       color: var(--orange-300);
     }
+    
     &::before {
       content: '${(props) => `${props.index}. `}';
       color: var(--orange-300);
+    }
+    
+    @media (max-width: 1024px) {
+      font-size: 1.1rem;
+    }
+    
+    @media (max-width: 900px) {
+      font-size: 1rem;
     }
   }
 `
