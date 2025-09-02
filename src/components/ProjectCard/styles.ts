@@ -11,7 +11,7 @@ export const ProjectCardTextContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  grid-column: 5 / 1;
+  grid-column: 1 / 5;
   grid-row: 1;
 
   > span,

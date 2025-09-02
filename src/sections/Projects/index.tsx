@@ -106,8 +106,8 @@ export function Projects() {
       id="projetos"
       variants={staggeredAnimation}
       ref={ref}
-      initial="hidden"
-      animate={onScreen ? "visible" : "hidden"}
+      initial="visible"
+      animate="visible"
       transition={{ ease: [0.16, 1, 0.3, 1] }}
     >
       <h2>Projects</h2>
