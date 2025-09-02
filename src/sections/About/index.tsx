@@ -44,20 +44,17 @@ export function About() {
       transition={{ ease: [0.16, 1, 0.3, 1] }}
     >
       <AboutTextContainer>
-        <h2>Sobre mim</h2>
+        <h2>About me</h2>
 
         <p>
-          Durante grande parte da minha adolescência, atuei como jogador
-          profissional de basquete, desenvolvendo habilidades fundamentais para
-          o esporte, tais como trabalho em equipe, resiliência e disciplina. No
-          entanto, a área da tecnologia sempre foi uma paixão presente em minha
-          vida e, em determinado momento, decidi seguir por esse caminho.
-          Comecei a me aprofundar em programação e iniciei minha jornada no
-          curso de Desenvolvedor Fullstack Python pela EBAC, e desde então tenho
-          me sentido extremamente motivado.
+        I am a software engineer with 3+ years of experience, specialized in backend development with nodejs
+
+My professional experience includes working on highly available solutions for various industries such as marketplaces, CRM, and information security.
+
+Currently, I work on designing solutions and developing applications that have a direct impact on the daily lives of millions of users, focusing on scalability, availability, consistency, and performance.
         </p>
 
-        <p>Aqui alguma tecnologias que eu venho usando Recentemente:</p>
+        <p>Here are some technologies I've been using recently:</p>
         <ul>
           {experienceTags.map((experienceTag) => {
             return (

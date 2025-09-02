@@ -1,1 +1,1 @@
-export const sections = ['sobre', 'projetos', 'experiencia', 'contato']
+export const sections = ['about', 'projects', 'experience', 'contact']

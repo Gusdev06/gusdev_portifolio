@@ -18,7 +18,7 @@ export function Contact() {
       animate={onScreen ? "visible" : "hidden"}
       transition={{ ease: [0.16, 1, 0.3, 1] }}
     >
-      <h2>Contato</h2>
+      <h2>Contact</h2>
 
       <h3>Whatsapp:</h3>
       <a href="https://wa.me/11943735978">

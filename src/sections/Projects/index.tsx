@@ -8,51 +8,93 @@ import { ProjectsContainer } from "./styles";
 
 const projectsContent: ProjectCardProps[] = [
   {
-    title: "Ecommerce Eplay",
-    description: "Ecommerce para uma loja de games",
+    title: "Picchat",
+    description: "AI-powered WhatsApp automation platform landing page with modern dark theme design",
     tags: [
       "React.js",
       "TypeScript",
-      "styled components, ",
-      "useContext",
-      "Redux",
-      "NodeJS",
-      "Express",
-      "MySQL",
-      "Prisma",
-      "Docker",
-      "Multer",
+      "Next.js",
+      "Styled Components",
+      "Responsive Design",
+      "Landing Page",
     ],
-    deployUrl: "https://eplay-1-tan.vercel.app/",
-    repoUrl: "EcommerceEplay",
-    imgUrl: "https://i.imgur.com/5WsfIF7.png",
+    deployUrl: "https://picchat.com.br/",
+    repoUrl: "picchat-landing",
+    imgUrl: "picchat.png",
   },
   {
-    title: "Ecommerce FSW Store",
-    description: "Ecommerce para uma loja de periféricos de computador",
-    tags: ["Next", "TypeScript", "styled components, ", "useContext", "Prisma"],
-    deployUrl: "https://full-stack-store-jslg.vercel.app/",
-    repoUrl: "fsw-store",
-    imgUrl: "https://i.imgur.com/VlEDuwg.png",
-  },
-  {
-    title: "DoceVix (em desenvolvimento)",
-    description: "Site para um restaurante",
+    title: "Donak Beauty",
+    description: "Elegant beauty salon website with professional design and comprehensive service showcase",
     tags: [
       "React.js",
       "TypeScript",
-      "styled components, ",
-      "useContext",
-      "Redux",
-      "NodeJS",
-      "Express",
-      "MySQL",
-      "Prisma",
-      "Docker",
-      "Multer",
+      "Next.js",
+      "Vercel",
+      "Responsive Design",
+      "Beauty Industry",
     ],
-    repoUrl: "projeto-doce-vix/tree/develop",
-    imgUrl: "https://i.imgur.com/1HapxmQ.png",
+    deployUrl: "https://donak-beauty.vercel.app/",
+    repoUrl: "donak-beauty",
+    imgUrl: "donak.png",
+  },
+  {
+    title: "Rodillas Sin Dolores",
+    description: "Health and wellness landing page for knee pain relief solutions with conversion-focused design",
+    tags: [
+      "React.js",
+      "TypeScript",
+      "Landing Page",
+      "Health & Wellness",
+      "Conversion Optimization",
+    ],
+    deployUrl: "https://www.rodillassindolores.com/",
+    repoUrl: "rodillas-sin-dolores",
+    imgUrl: "rodilia.png",
+  },
+  {
+    title: "Eshows",
+    description: "Music platform connecting artists with restaurants and bars, featuring app download landing page",
+    tags: [
+      "React.js",
+      "TypeScript",
+      "Landing Page",
+      "Mobile App Platform",
+      "Music Industry",
+      "Artist Management",
+    ],
+    deployUrl: "https://www.eshows.com.br/",
+    repoUrl: "eshows-landing",
+    imgUrl: "eshows.png",
+  },
+  {
+    title: "Espaces",
+    description: "Social network for gastronomic experiences helping users discover, review and share favorite places",
+    tags: [
+      "React.js",
+      "TypeScript",
+      "Social Network",
+      "Gastronomy Platform",
+      "User Reviews",
+      "Location Discovery",
+    ],
+    deployUrl: "https://www.espaces.com.br/",
+    repoUrl: "espaces-platform",
+    imgUrl: "espaces.png",
+  },
+  {
+    title: "Espaces Blog",
+    description: "Content platform featuring gastronomic guides and restaurant recommendations across São Paulo",
+    tags: [
+      "React.js",
+      "TypeScript",
+      "Content Management",
+      "Blog Platform",
+      "SEO Optimization",
+      "Gastronomy Content",
+    ],
+    deployUrl: "https://blog.espaces.com.br/",
+    repoUrl: "espaces-blog",
+    imgUrl: "espaces_blog.png",
   },
 ];
 
@@ -68,7 +110,7 @@ export function Projects() {
       animate={onScreen ? "visible" : "hidden"}
       transition={{ ease: [0.16, 1, 0.3, 1] }}
     >
-      <h2>Projetos</h2>
+      <h2>Projects</h2>
       <div>
         {projectsContent.map((project) => {
           return (

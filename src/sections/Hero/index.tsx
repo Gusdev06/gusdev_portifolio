@@ -20,17 +20,13 @@ export function Hero() {
       animate={onScreen ? "visible" : "hidden"}
       transition={{ ease: [0.16, 1, 0.3, 1] }}
     >
-      <motion.span variants={childAnimation}>Oi, Meu nome é</motion.span>
+      <motion.span variants={childAnimation}>Hello, my name is</motion.span>
       <motion.h1 variants={childAnimation}>Gustavo Gomes.</motion.h1>
-      <motion.h2 variants={childAnimation}>Desenvolvedor Full Stack</motion.h2>
+      <motion.h2 variants={childAnimation}>Full Stack Developer</motion.h2>
       <motion.p variants={childAnimation}>
-        Desenvolvedor com proficiência em Node.js, TypeScript e React,
-        incorporando igualmente a integração do backend. Possuo habilidades na
-        criação de estruturas e estilos atrativos, com especialização em
-        facilitar interações dinâmicas e desenvolver aplicações escaláveis.
-        Comprometido em assegurar a entrega de produtos de alta qualidade,
-        mantenho-me constantemente atualizado para continuar a me destacar no
-        mercado.
+      I am a software developer specialized in building automation workflows with n8n, creating complete systems tailored to business needs, and designing modern landing pages that convert. My work also includes SEO strategies to increase website traffic and improve online visibility.
+
+With a strong focus on automation, data-driven solutions, and clean user experiences, I help companies streamline operations, attract more visitors, and deliver efficient digital solutions from end to end.
       </motion.p>
       <motion.a
         variants={childAnimation}
